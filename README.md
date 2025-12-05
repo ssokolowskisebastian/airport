@@ -24,4 +24,3 @@ python manage.py runserver
 <img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/8747ee3c-c4d3-4531-8cfe-7291df0dfc0b" />
 <img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/15fe6584-3b02-43d0-9751-e60e0112f9ef" />
 <img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/84b8b6e9-1d1e-405a-9e62-816f93118387" />
-
