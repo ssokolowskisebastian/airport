@@ -1,31 +1,35 @@
 #Setup – Docker (PostgreSQL)
+
 docker compose up --build
 
 #Setup – Local (SQLite)
+
 python -m venv .venv
+
 source .venv/bin/activate     # Linux/macOS
+
 . .venv/Scripts/activate      # Windows PowerShell
 
-pip install --upgrade pip
 pip install -r requirements.txt
 
 cp .env.example .env
+
 python manage.py migrate
+
 python manage.py createsuperuser
+
 python manage.py loaddata fixtures/seed.json
+
 python manage.py runserver
 
-<img width="836" height="667" alt="image" src="https://github.com/user-attachments/assets/252e3ff1-c63d-4bdb-8728-f26b070636ad" />
-<img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/79a2dd17-b189-4604-b6e4-5457cfad3896" >
-<img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/2be9e4b7-1bf0-4b5b-88ce-6b0c111d4e7a" />
-<img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/98da1c73-879c-46fc-be60-b4e626f2e79d" />
-<img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/510c1937-92e8-4500-aabb-e014c57d5f40" />
-<img width="850" height="493" alt="image" src="https://github.com/user-attachments/assets/7a7ff0b5-f175-49a9-a5ac-f1151241f102" />
-<img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/8747ee3c-c4d3-4531-8cfe-7291df0dfc0b" />
-<img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/15fe6584-3b02-43d0-9751-e60e0112f9ef" />
-<img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/84b8b6e9-1d1e-405a-9e62-816f93118387" />
+<img width="836" height="567" alt="schema" src="https://github.com/user-attachments/assets/7ed36d22-67ef-4b9c-8205-9bcdba5ff1d4" />
+<img width="850" height="557" alt="airplane_type" src="https://github.com/user-attachments/assets/3007173c-e14a-4ef1-b638-66345d9a9bdd" />
+<img width="850" height="557" alt="airports" src="https://github.com/user-attachments/assets/c5109a9b-a286-42d9-b5d3-da42f8a896f3" />
+<img width="850" height="557" alt="crew:id" src="https://github.com/user-attachments/assets/91f97e9e-57a3-4dd7-a6b0-6e60328e2b9c" />
+<img width="850" height="557" alt="crews" src="https://github.com/user-attachments/assets/10219804-8ea7-4110-ac0c-b7513c9d4524" />
+<img width="850" height="593" alt="flight_list" src="https://github.com/user-attachments/assets/8c014abe-e7e1-4f86-a0cd-d7a9ef963602" />
+<img width="850" height="557" alt="routes" src="https://github.com/user-attachments/assets/e5241663-fe99-4407-b671-5d277614cd69" />
 
-# airport-drf
-# airport-drf
-# airport-drf
-# dfr-airport
+<img width="850" height="457" alt="orders" src="https://github.com/user-attachments/assets/49fd3e1e-c02e-43e1-9ecc-fdf7d4e1df77" />
+
+<img width="850" height="457" alt="image" src="https://github.com/user-attachments/assets/6acdeb2c-c67c-487b-b590-915a5c6c85d4" />
